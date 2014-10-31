@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76018F091A03E49900F1BA22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76018F081A03E49900F1BA22 /* AppDelegate.swift */; };
+		76018F0C1A03E49900F1BA22 /* Kroekln.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76018F0A1A03E49900F1BA22 /* Kroekln.xcdatamodeld */; };
+		76018F0E1A03E49900F1BA22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76018F0D1A03E49900F1BA22 /* ViewController.swift */; };
+		76018F111A03E49900F1BA22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76018F0F1A03E49900F1BA22 /* Main.storyboard */; };
+		76018F131A03E49900F1BA22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76018F121A03E49900F1BA22 /* Images.xcassets */; };
+		76018F161A03E49900F1BA22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76018F141A03E49900F1BA22 /* LaunchScreen.xib */; };
+		76018F221A03E49900F1BA22 /* KroeklnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76018F211A03E49900F1BA22 /* KroeklnTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76018F1C1A03E49900F1BA22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76018EFB1A03E49900F1BA22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76018F021A03E49900F1BA22;
+			remoteInfo = Kroekln;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76018F031A03E49900F1BA22 /* Kroekln.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kroekln.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76018F071A03E49900F1BA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76018F081A03E49900F1BA22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76018F0B1A03E49900F1BA22 /* Kroekln.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kroekln.xcdatamodel; sourceTree = "<group>"; };
+		76018F0D1A03E49900F1BA22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76018F101A03E49900F1BA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76018F121A03E49900F1BA22 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76018F151A03E49900F1BA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		76018F1B1A03E49900F1BA22 /* KroeklnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KroeklnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76018F201A03E49900F1BA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76018F211A03E49900F1BA22 /* KroeklnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KroeklnTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76018F001A03E49900F1BA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76018F181A03E49900F1BA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76018EFA1A03E49900F1BA22 = {
+			isa = PBXGroup;
+			children = (
+				76018F051A03E49900F1BA22 /* Kroekln */,
+				76018F1E1A03E49900F1BA22 /* KroeklnTests */,
+				76018F041A03E49900F1BA22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76018F041A03E49900F1BA22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76018F031A03E49900F1BA22 /* Kroekln.app */,
+				76018F1B1A03E49900F1BA22 /* KroeklnTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76018F051A03E49900F1BA22 /* Kroekln */ = {
+			isa = PBXGroup;
+			children = (
+				76018F081A03E49900F1BA22 /* AppDelegate.swift */,
+				76018F0D1A03E49900F1BA22 /* ViewController.swift */,
+				76018F0F1A03E49900F1BA22 /* Main.storyboard */,
+				76018F121A03E49900F1BA22 /* Images.xcassets */,
+				76018F141A03E49900F1BA22 /* LaunchScreen.xib */,
+				76018F0A1A03E49900F1BA22 /* Kroekln.xcdatamodeld */,
+				76018F061A03E49900F1BA22 /* Supporting Files */,
+			);
+			path = Kroekln;
+			sourceTree = "<group>";
+		};
+		76018F061A03E49900F1BA22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76018F071A03E49900F1BA22 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76018F1E1A03E49900F1BA22 /* KroeklnTests */ = {
+			isa = PBXGroup;
+			children = (
+				76018F211A03E49900F1BA22 /* KroeklnTests.swift */,
+				76018F1F1A03E49900F1BA22 /* Supporting Files */,
+			);
+			path = KroeklnTests;
+			sourceTree = "<group>";
+		};
+		76018F1F1A03E49900F1BA22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76018F201A03E49900F1BA22 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76018F021A03E49900F1BA22 /* Kroekln */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76018F251A03E49900F1BA22 /* Build configuration list for PBXNativeTarget "Kroekln" */;
+			buildPhases = (
+				76018EFF1A03E49900F1BA22 /* Sources */,
+				76018F001A03E49900F1BA22 /* Frameworks */,
+				76018F011A03E49900F1BA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kroekln;
+			productName = Kroekln;
+			productReference = 76018F031A03E49900F1BA22 /* Kroekln.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76018F1A1A03E49900F1BA22 /* KroeklnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76018F281A03E49900F1BA22 /* Build configuration list for PBXNativeTarget "KroeklnTests" */;
+			buildPhases = (
+				76018F171A03E49900F1BA22 /* Sources */,
+				76018F181A03E49900F1BA22 /* Frameworks */,
+				76018F191A03E49900F1BA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76018F1D1A03E49900F1BA22 /* PBXTargetDependency */,
+			);
+			name = KroeklnTests;
+			productName = KroeklnTests;
+			productReference = 76018F1B1A03E49900F1BA22 /* KroeklnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76018EFB1A03E49900F1BA22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = webventil;
+				TargetAttributes = {
+					76018F021A03E49900F1BA22 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					76018F1A1A03E49900F1BA22 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 76018F021A03E49900F1BA22;
+					};
+				};
+			};
+			buildConfigurationList = 76018EFE1A03E49900F1BA22 /* Build configuration list for PBXProject "Kroekln" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76018EFA1A03E49900F1BA22;
+			productRefGroup = 76018F041A03E49900F1BA22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76018F021A03E49900F1BA22 /* Kroekln */,
+				76018F1A1A03E49900F1BA22 /* KroeklnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76018F011A03E49900F1BA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76018F111A03E49900F1BA22 /* Main.storyboard in Resources */,
+				76018F161A03E49900F1BA22 /* LaunchScreen.xib in Resources */,
+				76018F131A03E49900F1BA22 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76018F191A03E49900F1BA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76018EFF1A03E49900F1BA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76018F0E1A03E49900F1BA22 /* ViewController.swift in Sources */,
+				76018F0C1A03E49900F1BA22 /* Kroekln.xcdatamodeld in Sources */,
+				76018F091A03E49900F1BA22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76018F171A03E49900F1BA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76018F221A03E49900F1BA22 /* KroeklnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76018F1D1A03E49900F1BA22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76018F021A03E49900F1BA22 /* Kroekln */;
+			targetProxy = 76018F1C1A03E49900F1BA22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76018F0F1A03E49900F1BA22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76018F101A03E49900F1BA22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76018F141A03E49900F1BA22 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76018F151A03E49900F1BA22 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76018F231A03E49900F1BA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76018F241A03E49900F1BA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76018F261A03E49900F1BA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kroekln/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76018F271A03E49900F1BA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kroekln/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76018F291A03E49900F1BA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KroeklnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kroekln.app/Kroekln";
+			};
+			name = Debug;
+		};
+		76018F2A1A03E49900F1BA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KroeklnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kroekln.app/Kroekln";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76018EFE1A03E49900F1BA22 /* Build configuration list for PBXProject "Kroekln" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76018F231A03E49900F1BA22 /* Debug */,
+				76018F241A03E49900F1BA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76018F251A03E49900F1BA22 /* Build configuration list for PBXNativeTarget "Kroekln" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76018F261A03E49900F1BA22 /* Debug */,
+				76018F271A03E49900F1BA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76018F281A03E49900F1BA22 /* Build configuration list for PBXNativeTarget "KroeklnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76018F291A03E49900F1BA22 /* Debug */,
+				76018F2A1A03E49900F1BA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		76018F0A1A03E49900F1BA22 /* Kroekln.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				76018F0B1A03E49900F1BA22 /* Kroekln.xcdatamodel */,
+			);
+			currentVersion = 76018F0B1A03E49900F1BA22 /* Kroekln.xcdatamodel */;
+			path = Kroekln.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 76018EFB1A03E49900F1BA22 /* Project object */;
+}
