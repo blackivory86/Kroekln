@@ -1,4 +1,4 @@
-Kr-kln
+Krøkln
 ======
 
 Connected Krøkln App
