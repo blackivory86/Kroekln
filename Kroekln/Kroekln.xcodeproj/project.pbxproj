@@ -60,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BECB5581A0524A90064B699 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76018F0A1A03E49900F1BA22 /* Kroekln.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		76018EFA1A03E49900F1BA22 = {
 			isa = PBXGroup;
 			children = (
@@ -81,12 +89,12 @@
 		76018F051A03E49900F1BA22 /* Kroekln */ = {
 			isa = PBXGroup;
 			children = (
+				6BECB5581A0524A90064B699 /* Model */,
 				76018F081A03E49900F1BA22 /* AppDelegate.swift */,
 				76018F0D1A03E49900F1BA22 /* ViewController.swift */,
 				76018F0F1A03E49900F1BA22 /* Main.storyboard */,
 				76018F121A03E49900F1BA22 /* Images.xcassets */,
 				76018F141A03E49900F1BA22 /* LaunchScreen.xib */,
-				76018F0A1A03E49900F1BA22 /* Kroekln.xcdatamodeld */,
 				76018F061A03E49900F1BA22 /* Supporting Files */,
 				76018F2C1A03EA1800F1BA22 /* KroeklnColors.swift */,
 			);
@@ -415,6 +423,7 @@
 				76018F271A03E49900F1BA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76018F281A03E49900F1BA22 /* Build configuration list for PBXNativeTarget "KroeklnTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +432,7 @@
 				76018F2A1A03E49900F1BA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

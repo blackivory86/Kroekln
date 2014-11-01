@@ -1,4 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14A389" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Match" syncable="YES">
+        <attribute name="durationInSeconds" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="finishedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="goalsOfTeam1" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="goalsOfTeam2" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="paused" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="resumed" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="opponents" toMany="YES" minCount="2" maxCount="2" deletionRule="Nullify" ordered="YES" destinationEntity="Team" inverseName="matches" inverseEntity="Team" syncable="YES"/>
+    </entity>
+    <entity name="Player" syncable="YES">
+        <attribute name="avatar" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="points" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="teams" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Team" inverseName="players" inverseEntity="Team" syncable="YES"/>
+        <fetchedProperty name="defeatCount" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Player"/>
+        </fetchedProperty>
+        <fetchedProperty name="winCount" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Player"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="Team" syncable="YES">
+        <attribute name="badge" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="points" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="matches" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Match" inverseName="opponents" inverseEntity="Match" syncable="YES"/>
+        <relationship name="players" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Player" inverseName="teams" inverseEntity="Player" syncable="YES"/>
+        <fetchedProperty name="defeatCount" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Team"/>
+        </fetchedProperty>
+        <fetchedProperty name="winCount" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Team"/>
+        </fetchedProperty>
+    </entity>
+    <elements>
+        <element name="Player" positionX="-63" positionY="-18" width="128" height="146"/>
+        <element name="Team" positionX="-54" positionY="-9" width="128" height="161"/>
+        <element name="Match" positionX="-36" positionY="9" width="128" height="163"/>
+    </elements>
 </model>
